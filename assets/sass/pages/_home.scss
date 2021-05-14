@@ -1,0 +1,150 @@
+section {
+  background-color: $color-white;
+  padding-top: $SPACING-XL;
+  padding-bottom: $SPACING-XL;
+}
+
+.hero {
+  background-image: url(https://www.bjtonline.com/sites/bjtonline.com/files/time_tide-miavana-web.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 560px;
+}
+
+.hero__title-container {
+  top: 60px;
+  left: 120px;
+  width: 600px;
+  padding: $SPACING-S;
+  background-color: rgba(207, 202, 197, 0.6);
+  border-radius: $SPACING-S;
+
+  & .hero__subtitle {
+    font-family: $FONT2;
+    color: $color-white;
+  }
+  & .hero__title {
+    font-family: $FONT1;
+    color: $color-text;
+  }
+}
+
+#section-1 {
+  & .logo {
+    margin-left: $SPACING-S;
+  }
+  & h1 {
+    font-family: $FONT2;
+    text-decoration: underline;
+  }
+}
+
+#section-2 {
+  background-color: $color-gray-medium;
+  & h2 {
+    font-family: $FONT2;
+  }
+
+  & .feature__card {
+    background-color: $color-white;
+    padding: $SPACING-S;
+    border-radius: $SPACING-S;
+  }
+
+  & .feature-image {
+    object-fit: cover;
+    width: 100%;
+    min-height: 320px;
+    max-height: 552px;
+    border-radius: $SPACING-S;
+  }
+}
+
+#section-3 {
+  & .feature__card-btn-icons {
+    font-size: $SPACING-S + 0.2;
+  }
+
+  & .feature__card {
+    background-color: $color-gray-medium;
+    padding: $SPACING-S;
+    width: 400px;
+    border-radius: $SPACING-S;
+
+    & .feature__card-image {
+      object-fit: cover;
+      width: 100%;
+      height: 240px;
+      border-radius: $SPACING-S;
+    }
+
+    & h4 {
+      color: $color-white;
+      font-family: $FONT2;
+    }
+
+    & h3 {
+      font-family: $FONT1;
+    }
+
+    & p {
+      color: $color-white;
+      font-family: $FONT3;
+    }
+
+    & i {
+      margin-left: $SPACING-S;
+    }
+  }
+}
+
+footer {
+  background-color: rgba(100, 83, 83, 0.493);
+  padding-top: $SPACING-L;
+  padding-bottom: $SPACING-M;
+
+  & span {
+    color: $color-white;
+    font-family: $FONT1;
+  }
+
+  & p {
+    display: flex;
+    align-items: center;
+    font-family: $FONT2;
+  }
+
+  & .nav-menu {
+    & li {
+      margin-right: $SPACING-XL;
+    }
+  }
+  & [class^="column-3"] {
+    padding: $SPACING-S;
+  }
+  & [class^="column-9"] {
+    padding: $SPACING-S;
+  }
+
+  & .logo {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  & li:first-of-type {
+    font-family: $FONT2;
+  }
+
+  & a {
+    color: $color-white;
+    font-size: $SPACING-S;
+    font-weight: 400;
+  }
+
+  & .language-select-btn {
+    & a {
+      color: $color-text;
+    }
+  }
+}

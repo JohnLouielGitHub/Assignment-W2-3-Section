@@ -1,0 +1,52 @@
+#header {
+  background-color: #9da7aa;
+
+  & span {
+    font-family: $FONT2;
+  }
+
+  & .btn {
+    font-family: $FONT2;
+  }
+
+  & nav {
+    padding: 1rem;
+  }
+}
+
+.logo {
+  object-fit: cover;
+  margin-left: 70px;
+  margin-right: $SPACING-S;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #bdb05e;
+  border-radius: 50%;
+}
+
+nav:first-of-type {
+  margin-left: auto;
+}
+
+nav {
+  margin-right: 70px;
+
+  & a {
+    margin: 0 $SPACING-S;
+    font-size: 1.2rem;
+    color: #505050;
+  }
+}
+
+.nav-menu {
+  display: flex;
+
+  & li {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
